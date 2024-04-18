@@ -1,0 +1,11 @@
+site:
+  title: Writing Samples
+  start_page: component-a::index.adoc
+content:
+  sources:
+  - url: https://github.com/DanRoscigno/SampleDocs.git
+    branches: HEAD
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
